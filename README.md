@@ -1,5 +1,5 @@
 # Live Barcode Reader MongoDB Integration
-This should serve as a tutorial for a working live barcode scanner with mongodb integration. Simply scan bar codes and have the corresponding data imported to your mongodb collection.
+This should serve as a tutorial for a simple working live barcode scanner with mongodb integration. Simply scan bar codes and have the corresponding data imported to your mongodb collection.
 
 Credits:
 - How to make a live barcode scanner: https://www.thepythoncode.com/code/making-a-barcode-scanner-in-python
