@@ -36,7 +36,7 @@ Type the collection name where you want the data to be stored.
 
 ![Alt text](/5.png)
 
-# Thats all!
+# That's all!
 Just run the live_barcode_mongodb_integration.py and watch scan your barcode to see your database get populated.
 I have included a 10 second timeout as default. You can adjust or remove it as you like.
 
