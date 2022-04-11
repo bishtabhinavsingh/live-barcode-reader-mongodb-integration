@@ -46,8 +46,10 @@ if __name__ == "__main__":
         # decode detected barcodes & get the image
         # that is drawn
         decoded_objects = decode(frame)
+        # horizontal guide line overlay
+        final = cv2.line(decoded_objects, (0, int(decoded_objects.shape[0]/2)), (decoded_objects.shape[1], int(decoded_objects.shape[0]/2)), (0, 0, 255), 1, 1)
         # show the image in the window
-        cv2.imshow("frame", frame)
+        cv2.imshow("frame", final)
         end = time.time()
         if cv2.waitKey(1) == ord("q"):
             break
